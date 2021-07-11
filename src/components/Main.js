@@ -2,7 +2,6 @@ import RightSidebar from "./RightSidebar"
 import Content from "./Content"
 import LeftSidebar from "./LeftSidebar"
 import "./Main.css"
-import AddPost from './AddPost'
 import Footer from './Footer'
 import Header from './Header'
 import { useState } from 'react'

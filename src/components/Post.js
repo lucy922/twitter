@@ -12,7 +12,7 @@ const Post = ({ post, onDelete }) => {
           </div>
           <div>
             <div className="post-name">
-              <a href="#">{post.name} <span>{post.username} {post.date}</span></a>
+              <a href="/">{post.name} <span>{post.username} {post.date}</span></a>
               <div className="post-svg">
                 <FaEllipsisH onClick={() => onDelete(post.id)}/>
               </div>

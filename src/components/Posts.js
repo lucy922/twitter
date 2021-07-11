@@ -1,9 +1,8 @@
-import{ FaTasks, FaCalendar,  FaPollH, FaSmile, FaImage, FaRegFilePdf, FaStar, FaRetweet, FaRegHeart, FaUpload, FaEllipsisH, FaRegComment,} from 'react-icons/fa'
+import{ FaCalendar,  FaPollH, FaSmile, FaImage, FaRegFilePdf, FaStar } from 'react-icons/fa'
 import Image from '../assets/images/img.jpeg'
 import AddPost from './AddPost'
 import "./Posts.css"
 import Post from './Post'
-import Footer from './Footer'
 
 const Posts = ({ posts, onDelete, onAdd }) => {
 

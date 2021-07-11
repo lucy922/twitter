@@ -3,10 +3,10 @@ import "./AddPost.css"
 
 const AddPost = ({ onAdd }) => {
   const [thumbnail, setThumbnail] = useState("")
-  const [name, setName] = useState("")
+  const [setName] = useState("")
   const [caption, setCaption] = useState("")
   const [username, setUsername] = useState("")
-  const [date, setDate] = useState("")
+  const [ setDate] = useState("")
 
   const onSubmit = (e) => {
     e.preventDefault()
