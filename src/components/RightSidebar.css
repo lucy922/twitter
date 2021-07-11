@@ -9,10 +9,10 @@
   align-items: center;
 }
 
-.search-bar:hover{
+/* .search-bar:hover{
   border: 1px solid #1DA1F2;
   background-color: #000;
-}
+} */
 
 .search-bar svg{
   font-size: 18px;
@@ -54,12 +54,11 @@ input{
   background-color: #202327;
   margin-top: 15px;
   margin-left: 20px;
-  padding: 10px 15px 10px 15px;
   border-radius: 10px;
 }
 
 .trend-wrap2{
-  margin-top: 10px;
+  padding: 5px 15px 5px 15px;
   border-bottom: 1px solid #545455;
 }
 
@@ -78,8 +77,16 @@ input{
   
 }
 
+.trend-wrap1{
+  padding: 10px;
+}
+
 .trend-wrap2 h4{
   margin-top: 5px;
+}
+
+.trend-wrap2:last-child{
+  border: none;
 }
 
 .trend-wrap2 h5{

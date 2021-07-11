@@ -1,10 +1,11 @@
 import './Content.css'
 import Posts from "./Posts"
 
-const Content = ({ posts }) => {
+const Content = ({ posts, onDelete, onAdd }) => {
+
   return (
     <div className="content">
-      <Posts posts={posts} />
+      <Posts posts={posts} onDelete={onDelete} onAdd={onAdd} />
     </div>
   )
 }

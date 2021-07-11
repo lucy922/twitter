@@ -9,59 +9,61 @@ const RightSidebar = () => {
         <input type="text" placeholder="Search Twitter" />
       </div>
 
-      <div className="wrap">
-        <div className="trend-wrap1">
-        <div className="title">
-          <h3>Trends for you</h3>
-          <div><FaCog /></div>
-        </div>
-        </div>
-        
-        <div className="trend-wrap2">
-          <div className="trending">
-            <h5>Trending in Nigeria</h5>
-            <FaEllipsisH />
+      <div className="trend-table">
+        <div className="wrap">
+          <div className="trend-wrap1">
+            <div className="title">
+              <h3>Trends for you</h3>
+              <div><FaCog /></div>
+            </div>
           </div>
-          <h4>Lagos</h4>
-          <h5>100k Tweets</h5>
-        </div>
 
-        <div className="trend-wrap2">
-          <div className="trending">
-            <h5>Trending in Nigeria</h5>
-            <FaEllipsisH />
+          <div className="trend-wrap2">
+            <div className="trending">
+              <h5>Trending in Nigeria</h5>
+              <FaEllipsisH />
+            </div>
+            <h4>Lagos</h4>
+            <h5>100k Tweets</h5>
           </div>
-          <h4>Lagos</h4>
-          <h5>100k Tweets</h5>
-        </div>
 
-        <div className="trend-wrap2">
-          <div className="trending">
-            <h5>Trending in Nigeria</h5>
-            <FaEllipsisH />
+          <div className="trend-wrap2">
+            <div className="trending">
+              <h5>Trending in Nigeria</h5>
+              <FaEllipsisH />
+            </div>
+            <h4>Lagos</h4>
+            <h5>100k Tweets</h5>
           </div>
-          <h4>Lagos</h4>
-          <h5>100k Tweets</h5>
-        </div>
 
-        <div className="trend-wrap2">
-          <div className="trending">
-            <h5>Trending in Nigeria</h5>
-            <FaEllipsisH />
+          <div className="trend-wrap2">
+            <div className="trending">
+              <h5>Trending in Nigeria</h5>
+              <FaEllipsisH />
+            </div>
+            <h4>Lagos</h4>
+            <h5>100k Tweets</h5>
           </div>
-          <h4>Lagos</h4>
-          <h5>100k Tweets</h5>
-        </div>
-        <div className="trend-wrap2">
-          <div className="trending">
-            <h5>Trending in Nigeria</h5>
-            <FaEllipsisH />
-          </div>
-          <h4>Lagos</h4>
-          <h5>100k Tweets</h5>
-        </div>
 
+          <div className="trend-wrap2">
+            <div className="trending">
+              <h5>Trending in Nigeria</h5>
+              <FaEllipsisH />
+            </div>
+            <h4>Lagos</h4>
+            <h5>100k Tweets</h5>
+          </div>
+          <div className="trend-wrap2">
+            <div className="trending">
+              <h5>Trending in Nigeria</h5>
+              <FaEllipsisH />
+            </div>
+            <h4>Lagos</h4>
+            <h5>100k Tweets</h5>
+          </div>
+        </div>
       </div>
+
     </div>
   )
 }
