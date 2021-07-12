@@ -16,7 +16,7 @@ const Posts = ({ posts, onDelete, onAdd }) => {
     <div>
       <div className="top-header">
         <div className="header-icon">
-          <h3>Home</h3>
+          <h3>Home</h3> 
           <FaStar />
         </div>
       </div>
