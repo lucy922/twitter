@@ -84,8 +84,16 @@
   border-radius: 14px;
 }
 
-.posts{
+.post{
   border-bottom: 1px solid rgba(204, 204, 204, 0.219);
+}
+
+.posts{
+  padding-top: 5px;
+}
+
+.post:last-child{
+  border-bottom: 0;
 }
 
 .post-content{
@@ -139,38 +147,23 @@ span{
 .icon{
   display: flex;
   margin-bottom: 10px;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 .icon span{
   margin-left: 10px;
 }
 
-.span1{
-  margin-left: 70px;
+.span{
   cursor: pointer;
 }
 
-.span1:hover{
+.span:hover{
   color: #1DA1F2;
 }
 
-.span1 svg:hover{
+.span svg:hover{
   background-color: #1da0f217;
   /* border-radius: 15px; */
 }
 
-.span2{
-  margin-left: 70px;
-  cursor: pointer;
-  }
-
-  .span3{
-    margin-left: 70px;
-    cursor: pointer;
-    }
-
-    .span4{
-      margin-left: 70px;
-      cursor: pointer;
-      }

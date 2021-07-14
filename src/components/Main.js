@@ -14,8 +14,8 @@ const Main = ({open}) => {
       thumbnail: "https://cdn-5c3bee13f911c900b0a66064.closte.com/wp-content/uploads/SANDY-Chair-thumbnail-1.jpg",
       name: "OBA ORIN",
       caption: "God is the greatest",
-      username: "@TeniEntertainer -",
-      date: "may 12"
+      username: "@TeniEntertainer"
+      
     },
 
     {
@@ -23,8 +23,8 @@ const Main = ({open}) => {
       thumbnail: "https://cdn-5c3bee13f911c900b0a66064.closte.com/wp-content/uploads/SANDY-Chair-thumbnail-1.jpg",
       name: "OBA ORIN",
       caption: "God is the greatest",
-      username: "@TeniEntertainer -",
-      date: "may 12"
+      username: "@TeniEntertainer "
+      
     },
 
     {
@@ -32,8 +32,8 @@ const Main = ({open}) => {
       thumbnail: "https://cdn-5c3bee13f911c900b0a66064.closte.com/wp-content/uploads/SANDY-Chair-thumbnail-1.jpg",
       name: "OBA ORIN",
       caption: "God is the greatest",
-      username: "@TeniEntertainer -",
-      date: "may 12"
+      username: "@TeniEntertainer "
+      
     },
 
     {
@@ -41,8 +41,7 @@ const Main = ({open}) => {
       thumbnail: "https://cdn-5c3bee13f911c900b0a66064.closte.com/wp-content/uploads/SANDY-Chair-thumbnail-1.jpg",
       name: "OBA ORIN",
       caption: "God is the greatest",
-      username: "@TeniEntertainer -",
-      date: "may 12"
+      username: "@TeniEntertainer "
     },
 
     {
@@ -50,8 +49,7 @@ const Main = ({open}) => {
       thumbnail: "https://cdn-5c3bee13f911c900b0a66064.closte.com/wp-content/uploads/SANDY-Chair-thumbnail-1.jpg",
       name: "OBA ORIN",
       caption: "God is the greatest",
-      username: "@TeniEntertainer -",
-      date: "may 12"
+      username: "@TeniEntertainer"
     }
   ])
 
