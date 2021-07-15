@@ -1,4 +1,4 @@
-import { FaHome, FaMailBulk, FaSearch } from "react-icons/fa"
+import { FaBell, FaEnvelope, FaHome, FaSearch } from "react-icons/fa"
 import "./Footer.css"
 const Footer = () => {
   return (
@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="footer-icons">
         <a href="/" className="footer-link"><FaHome/></a>
         <a href="/" className="footer-link"><FaSearch/></a>
-        <a href="/" className="footer-link"><FaMailBulk/></a>
+        <a href="/" className="footer-link"><FaBell/></a>
+        <a href="/" className="footer-link"><FaEnvelope/></a>
       </div>
       
     </div>

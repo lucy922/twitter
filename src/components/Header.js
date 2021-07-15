@@ -1,6 +1,6 @@
 import './Header.css'
 import { useState } from 'react'
-import { FaBookmark, FaComment, FaList, FaNewspaper, FaStar, FaTimes, FaUser, FaToggleOff } from 'react-icons/fa'
+import { FaBookmark, FaComment, FaList, FaStar, FaTimes, FaUser, FaToggleOff, FaCog, FaPoll, FaAd, FaQuestionCircle, FaEnvelope, FaSnowflake, FaRulerCombined } from 'react-icons/fa'
 import Image from '../assets/images/img.jpeg'
 
 const Header = () => {
@@ -59,36 +59,58 @@ const Header = () => {
               </a>
             </li>
             <li className=" option mobile-option" onClick={closeMobileMenu}>
-              <FaNewspaper />
+              <FaEnvelope />
               <a href="/" className="moments">
                 Newsletters
+              </a>
+            </li>
+            <li className=" option mobile-option" onClick={closeMobileMenu}>
+              <FaAd />
+              <a href="/" className="moments">
+                Twitter Ads
+              </a>
+            </li>
+            <li className=" option mobile-option" onClick={closeMobileMenu}>
+              <FaPoll />
+              <a href="/" className="moments">
+               Analytics
               </a>
             </li>
           </div>
           <div className="list-items">
             <li className=" option mobile-option" onClick={closeMobileMenu}>
+              <FaCog/>
               <a href="/">Security and Privacy</a>
             </li>
             <li className=" option mobile-option" onClick={closeMobileMenu}>
+              <FaQuestionCircle/>
               <a href="/">Help Center</a>
             </li>
           </div>
 
           <div className="list-items">
             <li className=" option mobile-option" onClick={closeMobileMenu}>
+              <div className="ds">
+              <FaSnowflake/>
               <div className="toggle">
               <a href="/">Data saver</a>
               <span><FaToggleOff /></span> 
               </div>
-             
+              </div>
             </li>
             <li className=" option mobile-option" onClick={closeMobileMenu}>
+              <FaRulerCombined/>
               <a href="/">Display</a>
             </li>
           </div>
 
-          <div className="logoutbtn">
-            <a href="/">Log Out</a>
+          <div className="list-items">
+          <li className=" option mobile-option" onClick={closeMobileMenu}>
+            <div className="logoutbtn">
+            <a href="/">Logout</a>
+            </div>
+              
+            </li>
           </div>
         </ul>
       </div>
