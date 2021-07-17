@@ -38,6 +38,7 @@
     align-items: center;
     padding: 0px 10px;
     height: 80px;
+    
   }
   .Nav-header img{
     padding: 15px;
@@ -67,6 +68,8 @@
     transition: all 0.5s ease;
     flex-direction: column;
     grid-gap: 18px;
+    max-height: 100%;
+    overflow-y: auto;
   }
   .nav-options.active {
     background: #000;
