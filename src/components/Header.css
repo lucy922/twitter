@@ -59,14 +59,14 @@
 
   .nav-options {
     display: flex;
-    width: 100%;
+    width: 70%;
     position: absolute;
     top: 60px;
     justify-content: center;
     opacity: 0;
     transition: all 0.5s ease;
     flex-direction: column;
-    grid-gap: 15px;
+    grid-gap: 18px;
   }
   .nav-options.active {
     background: #000;
@@ -77,29 +77,28 @@
   
 h3{
   color: #fff;
+  font-size: 16px;
   margin-bottom: 5px;
   margin-right: 15px;
   margin-left: 15px;
 }
 
 .name{
-  font-size: 18px;
-  /* margin-top: 5px; */
+  font-size: 14px;
   margin-right: 15px;
   margin-left: 15px;
 }
 
 .follow{
-  font-size: 18px;
   margin-right: 10px;
 }
 
 .span1{
   display: flex;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -107,21 +106,21 @@ h3{
     display: block;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px;
+    margin-bottom: 23px;
   }
 
   .option a{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.835);
     text-decoration: none;
   }
   .option svg{
-    color: #fff;
+    color: rgba(204, 204, 204, 0.424);
     text-align: center;
     margin-right: 15px;
   }
 
   .list-items{
-    padding: 10px;
+    padding: 0 15px;
     border-bottom: 1px solid rgba(204, 204, 204, 0.219);
   }
 
