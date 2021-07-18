@@ -33,12 +33,13 @@
   }
   .Navbar {
     display: flex;
+    position: fixed;
+    width: 96%;
     background: #000;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px;
-    height: 80px;
-    
+    padding: 5px 10px;
+    height: 65px;
   }
   .Nav-header img{
     padding: 15px;
@@ -55,8 +56,17 @@
   }
 
   .Nav-header{
+    margin-top: 250px;
     border-bottom: 1px solid rgba(204, 204, 204, 0.219);
   }
+
+  /* .nb{
+    background-color: rgba(0, 0, 0, 0.589);
+     bottom: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+  } */
 
   .nav-options {
     display: flex;
@@ -109,7 +119,8 @@ h3{
     display: block;
     align-items: center;
     justify-content: center;
-    margin-bottom: 23px;
+    margin-top: 8px;
+    margin-bottom: 30px;
   }
 
   .option a{
@@ -125,6 +136,10 @@ h3{
   .list-items{
     padding: 0 15px;
     border-bottom: 1px solid rgba(204, 204, 204, 0.219);
+  }
+
+  .list-items:last-child{
+    border-bottom: none;
   }
 
   .ds{
