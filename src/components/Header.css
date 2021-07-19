@@ -74,18 +74,14 @@
     position: absolute;
     top: 60px;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     transition: all 0.5s ease;
     flex-direction: column;
     grid-gap: 18px;
     max-height: 100%;
     overflow-y: auto;
-  }
-  .nav-options.active {
-    background: #000;
-    opacity: 1;
-    transition: all 0.5s ease;
     z-index: 1;
+    background: #000;
   }
   
 h3{
