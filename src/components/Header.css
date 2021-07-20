@@ -56,20 +56,21 @@
     border-bottom: 1px solid rgba(204, 204, 204, 0.219);
   }
   .nb {
-    margin-top: 320px;
+    margin-top: 290px;
   }
   .nav-options {
     display: flex;
     width: 70%;
     position: absolute;
-    top: 60px;
-    height: 720px;
+    top: 12px;
+    margin-top: 40px;
+    height: 730px;
     justify-content: center;
     opacity: 0;
     transition: all 0.5s ease;
     flex-direction: column;
     grid-gap: 18px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
   .nav-options.active {
     z-index: 1;
