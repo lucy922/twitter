@@ -1,11 +1,10 @@
-
-
 /*Desktop View*/
 
-.Navbar{
+.Navbar {
   display: none;
 }
-.nav-options{
+
+.nav-options {
   display: none;
 }
 
@@ -20,14 +19,14 @@
 .mobile-menu {
   display: none;
 }
+
 .mobile-menu {
   display: block;
 }
 
 @media (max-width: 648px) {
   /*Mobile View */
- 
-  .Navbar svg{
+  .Navbar svg {
     font-size: 25px;
     color: #1DA1F2;
   }
@@ -41,47 +40,36 @@
     padding: 5px 10px;
     height: 65px;
   }
-  .Nav-header img{
+  .Nav-header img {
     padding: 15px;
     width: 45px;
     height: 50px;
     border-radius: 50%;
   }
-
-  .mobile-menu img{
+  .mobile-menu img {
     padding: 15px;
     width: 45px;
     height: 50px;
     border-radius: 50%;
   }
-
-  .Nav-header{
-    margin-top: 250px;
+  .Nav-header {
     border-bottom: 1px solid rgba(204, 204, 204, 0.219);
   }
-
-  /* .nb{
-    background-color: rgba(0, 0, 0, 0.589);
-     bottom: 0;
-     top: 0;
-     width: 100%;
-     height: 100%;
-  } */
-
+  .nb {
+    margin-top: 320px;
+  }
   .nav-options {
     display: flex;
     width: 70%;
     position: absolute;
     top: 60px;
+    height: 720px;
     justify-content: center;
     opacity: 0;
     transition: all 0.5s ease;
     flex-direction: column;
     grid-gap: 18px;
-    max-height: 100%;
-    overflow-y: auto;
-    z-index: 1;
-    background: #000;
+    overflow: scroll;
   }
   .nav-options.active {
     z-index: 1;
@@ -89,82 +77,67 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
-  
-h3{
-  color: #fff;
-  font-size: 16px;
-  margin-bottom: 5px;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-.name{
-  font-size: 14px;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-.follow{
-  margin-right: 10px;
-}
-
-.span1{
-  display: flex;
-  font-size: 15px;
-  color: #fff;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 15px;
-  margin-left: 15px;
-}
+  h3 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .name {
+    font-size: 14px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .follow {
+    margin-right: 10px;
+  }
+  .span1 {
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
   .option {
     display: block;
     align-items: center;
     justify-content: center;
     margin-top: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
-
-  .option a{
+  .option a {
     color: rgba(255, 255, 255, 0.835);
     text-decoration: none;
   }
-  .option svg{
+  .option svg {
     color: rgba(204, 204, 204, 0.424);
     text-align: center;
     margin-right: 15px;
   }
-
-  .list-items{
+  .list-items {
     padding: 0 15px;
     border-bottom: 1px solid rgba(204, 204, 204, 0.219);
   }
-
-  .list-items:last-child{
+  .list-items:last-child {
     border-bottom: none;
   }
-
-  .ds{
+  .ds {
     display: flex;
     align-items: center;
   }
-
-  .toggle{
+  .toggle {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  span svg{
-    font-size: 20px;
-  }
-
-  .logoutbtn{
+  .logoutbtn {
     margin-bottom: 18px;
   }
-
-  .logoutbtn a{
+  .logoutbtn a {
     color: #fff;
     text-decoration: none;
   }
-
 }

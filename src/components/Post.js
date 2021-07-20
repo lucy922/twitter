@@ -23,7 +23,7 @@ const Post = ({ post, onDelete }) => {
           </div>
         </div>
 
-        <div className="icon">
+        <div className="icons">
           <div className="span">
             <span><FaRegComment /></span>
             <span>1.5k</span>
