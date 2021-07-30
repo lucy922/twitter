@@ -6,22 +6,31 @@ const Post = ({ post, onDelete }) => {
     
     <div className="post">
       <div className="posts">
+        <div>
         <div className="post-content">
           <div className="post-img">
             <img src={post.thumbnail} alt="post thumbnail" />
           </div>
-          <div>
-            <div className="post-name">
-              <a href="/">{post.name} <span>{post.username}</span></a>
-              <div className="post-svg">
+          <div className="pd">
+            <div className="post-details">
+              <a href="/">
+                <span className="post-name">{post.name}</span>
+                <span>{post.username}</span>
+              </a>
+              <a href="/">
+                <span>{post.time}</span> 
+              </a>
+            </div>
+            <div className="post-svg">
                 <FaEllipsisH onClick={() => onDelete(post.id)}/>
               </div>
-            </div>
-            <div className="post-text">
-              {post.caption}
-            </div>
           </div>
         </div>
+        <div className="post-text">
+              {post.caption}
+            </div>
+        </div>
+        
 
         <div className="icons">
           <div className="span">

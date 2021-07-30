@@ -12,29 +12,40 @@ body{
  .container{
    width: 100%;
  }
- .post-svg{
-   margin-left: 30px;
- }
  .post-content{
-   padding: 0;
+   justify-content: center;
+ }
+ .post-svg{
+  margin-left: 78px;
  }
  .post-img{
    padding-top: 5px;
  }
- .post-name{
-   margin-left: 12pxpx;
-   font-size: 14px;
+ .post-img img{
+  width: 45px;
+  height: 45px;
+  margin: 0;
+  border-radius: 50%;
+}
+.posts{
+  padding: 0;
+}
+ .pd span{
+   font-size: 13px;
  }
  .post-name span{
   color: #51565a;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
  }
- .post-txt{
-   margin-left: 12px;
+ .post-text{
+   font-size: 14px;
+   margin-left: 59px;
  }
  .icons{
    margin-top: 17px;
+   margin-left: 16px;
+   margin-right: 0;
  }
  .icons span{
    margin-left: 8px;
@@ -60,11 +71,6 @@ body{
   }
   .bottom-header{
     display: none;
-  }
-  .post-img img{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
   }
   .span span{
     font-size: 14px;
