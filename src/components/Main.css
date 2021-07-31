@@ -12,39 +12,43 @@ body{
  .container{
    width: 100%;
  }
- .post-content{
+ /* .post-content{
    justify-content: center;
- }
+ } */
  .post-svg{
-  margin-left: 78px;
+  margin-left: 8px;
+ }
+ .post-time{
+   margin-left: 5px;
  }
  .post-img{
    padding-top: 5px;
  }
  .post-img img{
-  width: 45px;
-  height: 45px;
   margin: 0;
-  border-radius: 50%;
 }
 .posts{
   padding: 0;
 }
- .pd span{
-   font-size: 13px;
- }
  .post-name span{
   color: #51565a;
-  font-size: 12px;
   font-weight: 500;
+ }
+ .post-username{
+   font-size: 13px;
+ }
+ .post-details{
+   margin-top: 10px;
+ }
+ .post-name{
+   font-size: 13px;
  }
  .post-text{
    font-size: 14px;
-   margin-left: 59px;
  }
  .icons{
-   margin-top: 17px;
-   margin-left: 16px;
+   margin-top: 15px;
+   margin-left: 23px;
    margin-right: 0;
  }
  .icons span{

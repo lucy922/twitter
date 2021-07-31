@@ -24,7 +24,6 @@ const Posts = ({ posts, onDelete, onAdd }) => {
         <div className="header-details">
         <img src={Image} alt="profile thumbnail" />
           <AddPost onAdd={onAdd} />
-        
         </div>
        
         <div className="nav-details">
