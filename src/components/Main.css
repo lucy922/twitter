@@ -47,49 +47,10 @@ body {
     font-size: 14px;
   }
   .icons {
-    margin-top: 15px;
+    margin-top: 5px;
     margin-right: 0;
   }
-  @media (max-width: 320px) {
-    .icons {
-      margin-left: 35px;
-    }
-    .post-svg {
-      margin-left: 35px;
-    }
-  }
-  /* @media (max-width: 533px) {
-  .post-details{
-    margin-left: 10px;
-  }
-  .icons{
-    margin-left: 19px;
-  }
-   } */
-  @media (min-width: 375px) {
-    .icons {
-      margin-left: 26px;
-    }
-    .post-svg {
-      margin-left: 80px;
-    }
-  }
-  @media (min-width: 360px) {
-    .icons {
-      margin-left: 30px;
-    }
-    .post-svg {
-      margin-left: 75px;
-    }
-  }
-  @media (min-width: 401px) {
-    .icons {
-      margin-left: 22px;
-    }
-    .post-svg {
-      margin-left: 120px;
-    }
-  }
+  
   .icons span {
     margin-left: 8px;
   }
@@ -119,7 +80,46 @@ body {
     font-size: 14px;
   }
 }
-
+@media (max-width: 320px) {
+  .icons {
+    margin-left: 35px;
+  }
+  .post-svg {
+    margin-left: 35px;
+  }
+}
+/* @media (max-width: 533px) {
+.post-details{
+  margin-left: 10px;
+}
+.icons{
+  margin-left: 19px;
+}
+ } */
+@media (min-width: 375px) {
+  .icons {
+    margin-left: 26px;
+  }
+  .post-svg {
+    margin-left: 80px;
+  }
+}
+@media (min-width: 360px) {
+  .icons {
+    margin-left: 30px;
+  }
+  .post-svg {
+    margin-left: 75px;
+  }
+}
+@media (min-width: 401px) {
+  .icons {
+    margin-left: 22px;
+  }
+  .post-svg {
+    margin-left: 120px;
+  }
+}
 @media (min-width: 640px) {
   .Navbar {
     display: none;
