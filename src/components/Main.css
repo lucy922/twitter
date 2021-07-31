@@ -48,9 +48,41 @@ body{
  }
  .icons{
    margin-top: 15px;
-   margin-left: 23px;
+   /* margin-left: 19px; */
    margin-right: 0;
  }
+ @media (max-width: 320px) {
+.icons{
+  margin-left: 27px;
+}
+.post-svg{
+  margin-left: 35px;
+}
+ }
+ /* @media (max-width: 533px) {
+  .post-details{
+    margin-left: 10px;
+  }
+  .icons{
+    margin-left: 19px;
+  }
+   } */
+   @media (min-width: 375px) {
+    .icons{
+      margin-left: 17px;
+    }
+    .post-svg{
+      margin-left: 80px;
+    }
+     }
+     @media (min-width: 401px) {
+      .icons{
+        margin-left: 10px;
+      }
+      .post-svg{
+        margin-left: 120px;
+      }
+       }
  .icons span{
    margin-left: 8px;
  }
