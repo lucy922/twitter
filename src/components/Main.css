@@ -68,7 +68,7 @@ body{
    } */
    @media (min-width: 375px) {
     .icons{
-      margin-left: 17px;
+      margin-left: 26px;
     }
     .post-svg{
       margin-left: 80px;
@@ -76,7 +76,7 @@ body{
      }
      @media (min-width: 401px) {
       .icons{
-        margin-left: 10px;
+        margin-left: 22px;
       }
       .post-svg{
         margin-left: 120px;
