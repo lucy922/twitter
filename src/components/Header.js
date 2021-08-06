@@ -37,7 +37,6 @@ const Header = () => {
             </div>
             </div>
            
-
             <div className="list-items">
               <li className="option" onClick={closeMobileMenu}>
                 <FaUser />
@@ -57,25 +56,25 @@ const Header = () => {
               </li>
               <li className=" option mobile-option" onClick={closeMobileMenu}>
                 <FaStar />
-                <a href="/" className="moments">
+                <a href="/">
                   Moments
                 </a>
               </li>
               <li className=" option mobile-option" onClick={closeMobileMenu}>
                 <FaEnvelope />
-                <a href="/" className="moments">
+                <a href="/">
                   Newsletters
                 </a>
               </li>
               <li className=" option mobile-option" onClick={closeMobileMenu}>
                 <FaAd />
-                <a href="/" className="moments">
+                <a href="/">
                   Twitter Ads
                 </a>
               </li>
               <li className=" option mobile-option" onClick={closeMobileMenu}>
                 <FaPoll />
-                <a href="/" className="moments">
+                <a href="/">
                   Analytics
                 </a>
               </li>

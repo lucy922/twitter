@@ -47,7 +47,6 @@
 
 .nav-icons{
   display: flex;
-  margin-left: 70px;
   font-size: 20px;
   color: #1DA1F2;
 }
@@ -127,7 +126,6 @@
 }
 
 .post-svg{
-  margin-left: 278px;
   color: rgba(204, 204, 204, 0.548);
 }
 
@@ -176,5 +174,72 @@ span{
 .span svg:hover{
   background-color: #1da0f217;
   /* border-radius: 15px; */
+}
+
+.Nb {
+  margin-left: 170px;
+  display: flex;
+  /* position: fixed; */
+  /* width: 96%; */
+  background: #000;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.mb{
+  display: block;
+}
+
+.lists{
+  padding: 0 16px;
+  margin-top: 10px;
+ font-size: 14px;
+ font-weight: 200;
+}
+
+.lists svg{
+  color: #555657ea;
+}
+
+.link{
+  margin-bottom: 25px;
+}
+
+.link a{
+  padding: 12px 16px;
+}
+.btndiv{
+margin-top: 10px;
+/* margin-bottom: px; */
+text-align: center;
+}
+.canbtn{
+  border-radius: 13px;
+  border: none;
+  color: #fff;
+  background-color: #555657ea;
+  padding: 13px;
+  width: 80%;
+  text-align: center;
+}
+.menu-content {
+  list-style: none;
+  width: 25%;
+  left: 44%;
+  position: absolute;
+  margin-top: 40px;
+  justify-content: center;
+  transition: all 0.5s ease;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 1;
+}
+.menu-content.active {
+  z-index: 1;
+  background: rgb(0, 0, 0);
+  opacity: 1;
+  transition: all 0.5s ease;
+  box-shadow: 4px 4px 10px 10px rgba(58, 57, 57, 0.308);
 }
 

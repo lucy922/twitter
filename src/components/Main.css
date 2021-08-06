@@ -12,9 +12,6 @@ body {
   .container {
     width: 100%;
   }
-  /* .post-content{
-   justify-content: center;
- } */
   .post-svg {
     margin-left: 8px;
   }
@@ -79,6 +76,18 @@ body {
   .span span {
     font-size: 14px;
   }
+  .Nb{
+    margin: 0;
+  }
+  .menu-content{
+    width: 95%;
+    left: 2%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+  .canbtn{
+    width: 100%;
+  }
 }
 @media (max-width: 320px) {
   .icons {
@@ -87,15 +96,9 @@ body {
   .post-svg {
     margin-left: 35px;
   }
+  
 }
-/* @media (max-width: 533px) {
-.post-details{
-  margin-left: 10px;
-}
-.icons{
-  margin-left: 19px;
-}
- } */
+
 @media (min-width: 375px) {
   .icons {
     margin-left: 26px;
