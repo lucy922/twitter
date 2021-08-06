@@ -1,6 +1,5 @@
-import { FaEllipsisH, FaRegComment, FaRetweet, FaRegHeart, FaUpload, FaTimes, FaSnapchatGhost, FaUserTimes, FaFolderPlus, FaBellSlash, FaTimesCircle, FaTintSlash, FaFlag} from "react-icons/fa"
+import { FaEllipsisH, FaRegComment, FaRetweet, FaRegHeart, FaUpload, FaSnapchatGhost, FaUserTimes, FaFolderPlus, FaBellSlash, FaTimesCircle, FaTintSlash, FaFlag } from "react-icons/fa"
 import { useState } from 'react'
-import Content from './Content'
 
 const Post = ({ post, onDelete }) => {
   const [click, setClick] = useState(false);
@@ -32,48 +31,48 @@ const Post = ({ post, onDelete }) => {
                   )}
                 </div>
               </div>
-               {click ? (
+              {click ? (
                 <div className="dropdown">
-                <ul className={click ? "menu-content active" : "menu-content"}>
-                  <div className="lists">
-                  <li className="link" onClick={closeMobileMenu}>
-                    <FaSnapchatGhost />
-                    <a href="/">Not interested in this tweet</a>
-                  </li>
-                  <li className="link" onClick={closeMobileMenu}>
-                    <FaUserTimes/>
-                    <a href="/">Unfollow @noname</a>
-                  </li>
-                  <li className="link" onClick={closeMobileMenu}>
-                    <FaFolderPlus/>
-                    <a href="/">Add/remove @noname from lists</a>
-                  </li>
-                  <li className="link" onClick={closeMobileMenu}>
-                    <FaBellSlash/>
-                    <a href="/">Mute @noname</a>
-                  </li>
-                  <li className="link" onClick={closeMobileMenu}>
-                   <FaTimesCircle/> 
-                    <a href="/">Block @noname</a>
-                  </li>
-                  <li className="link" onClick={closeMobileMenu}>
-                    <FaTintSlash/>
-                    <a href="/">Embed Tweet</a>
-                  </li>
-                  <li className="link" onClick={closeMobileMenu}>
-                    <FaFlag/>
-                    <a href="/">Report Tweet</a>
-                  </li>
-                  </div>
-                  <div className="btndiv">
-                  <button className="canbtn">Cancel</button>
-                  </div>
-                </ul>
-              </div>
-               ):
-               null
-               }
-              
+                  <ul className={click ? "menu-content active" : "menu-content"}>
+                    <div className="lists">
+                      <li className="link" onClick={closeMobileMenu}>
+                        <FaSnapchatGhost />
+                        <a href="/">Not interested in this tweet</a>
+                      </li>
+                      <li className="link" onClick={closeMobileMenu}>
+                        <FaUserTimes />
+                        <a href="/">Unfollow @noname</a>
+                      </li>
+                      <li className="link" onClick={closeMobileMenu}>
+                        <FaFolderPlus />
+                        <a href="/">Add/remove @noname from lists</a>
+                      </li>
+                      <li className="link" onClick={closeMobileMenu}>
+                        <FaBellSlash />
+                        <a href="/">Mute @noname</a>
+                      </li>
+                      <li className="link" onClick={closeMobileMenu}>
+                        <FaTimesCircle />
+                        <a href="/">Block @noname</a>
+                      </li>
+                      <li className="link" onClick={closeMobileMenu}>
+                        <FaTintSlash />
+                        <a href="/">Embed Tweet</a>
+                      </li>
+                      <li className="link" onClick={closeMobileMenu}>
+                        <FaFlag />
+                        <a href="/">Report Tweet</a>
+                      </li>
+                    </div>
+                    <div className="btndiv">
+                      <button className="canbtn">Cancel</button>
+                    </div>
+                  </ul>
+                </div>
+              ) :
+                null
+              }
+
             </div>
 
           </div>

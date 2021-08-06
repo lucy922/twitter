@@ -26,17 +26,17 @@ const Header = () => {
         <div>
           <ul className={click ? "nav-options active" : "nav-options"}>
             <div className="nb">
-            <div className="Nav-header">
-              <img src={Image} alt="profile thumbnail" />
-              <h3>Lucie</h3>
-              <span className="name">@_dada_dev</span>
-              <div className="span1">
-                <h4> 70 <span className="follow">following</span> </h4>
-                <h4> 70 <span className="follow">followers</span> </h4>
+              <div className="Nav-header">
+                <img src={Image} alt="profile thumbnail" />
+                <h3>Lucie</h3>
+                <span className="name">@_dada_dev</span>
+                <div className="span1">
+                  <h4> 70 <span className="follow">following</span> </h4>
+                  <h4> 70 <span className="follow">followers</span> </h4>
+                </div>
               </div>
             </div>
-            </div>
-           
+
             <div className="list-items">
               <li className="option" onClick={closeMobileMenu}>
                 <FaUser />

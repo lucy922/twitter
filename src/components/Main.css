@@ -47,7 +47,6 @@ body {
     margin-top: 5px;
     margin-right: 0;
   }
-  
   .icons span {
     margin-left: 8px;
   }
@@ -76,19 +75,20 @@ body {
   .span span {
     font-size: 14px;
   }
-  .Nb{
+  .Nb {
     margin: 0;
   }
-  .menu-content{
+  .menu-content {
     width: 95%;
     left: 2%;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
   }
-  .canbtn{
+  .canbtn {
     width: 100%;
   }
 }
+
 @media (max-width: 320px) {
   .icons {
     margin-left: 35px;
@@ -96,7 +96,6 @@ body {
   .post-svg {
     margin-left: 35px;
   }
-  
 }
 
 @media (min-width: 375px) {
@@ -107,6 +106,7 @@ body {
     margin-left: 80px;
   }
 }
+
 @media (min-width: 360px) {
   .icons {
     margin-left: 30px;
@@ -115,6 +115,7 @@ body {
     margin-left: 75px;
   }
 }
+
 @media (min-width: 401px) {
   .icons {
     margin-left: 22px;
@@ -123,6 +124,7 @@ body {
     margin-left: 120px;
   }
 }
+
 @media (min-width: 640px) {
   .Navbar {
     display: none;
