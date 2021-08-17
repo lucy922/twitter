@@ -33,6 +33,8 @@ const Post = ({ post, onDelete }) => {
               </div>
               {click ? (
                 <div className="dropdown">
+                  <div className="overlay" onClick={closeMobileMenu}> 
+                  </div>
                   <ul className={click ? "menu-content active" : "menu-content"}>
                     <div className="lists">
                       <li className="link" onClick={closeMobileMenu}>
@@ -65,7 +67,7 @@ const Post = ({ post, onDelete }) => {
                       </li>
                     </div>
                     <div className="btndiv">
-                      <button className="canbtn">Cancel</button>
+                      <button className="canbtn" onClick={closeMobileMenu}>Cancel</button>
                     </div>
                   </ul>
                 </div>

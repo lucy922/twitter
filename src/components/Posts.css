@@ -192,8 +192,6 @@ span{
 }
 
 .lists{
-  padding: 0 16px;
-  margin-top: 10px;
  font-size: 14px;
  font-weight: 200;
 }
@@ -210,36 +208,46 @@ span{
   padding: 12px 16px;
 }
 .btndiv{
-margin-top: 10px;
-/* margin-bottom: px; */
-text-align: center;
+  margin-top: 10px;
+  text-align: center;
 }
 .canbtn{
   border-radius: 13px;
   border: none;
   color: #fff;
   background-color: #555657ea;
-  padding: 13px;
-  width: 80%;
+  padding: 10px;
+  width: 100%;
   text-align: center;
 }
+
 .menu-content {
   list-style: none;
   width: 23%;
   left: 44%;
-  position: absolute;
-  margin-top: 40px;
+  position: fixed;
+  bottom: 0;
+  /* top: 18%; */
   justify-content: center;
   transition: all 0.5s ease;
   flex-direction: column;
   border-radius: 10px;
   z-index: 1;
+  padding: 16px 16px;
 }
 .menu-content.active {
-  z-index: 1;
   background: rgb(0, 0, 0);
-  opacity: 1;
   transition: all 0.5s ease;
   box-shadow: 4px 4px 10px 10px rgba(58, 57, 57, 0.308);
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0.2;
 }
 

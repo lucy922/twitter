@@ -41,19 +41,20 @@
     height: 65px;
   }
   .Nav-header img {
-    padding: 15px;
     width: 45px;
     height: 50px;
     border-radius: 50%;
   }
   .mobile-menu img {
-    padding: 15px;
     width: 45px;
     height: 50px;
     border-radius: 50%;
   }
   .Nav-header {
     border-bottom: 1px solid rgba(204, 204, 204, 0.219);
+  }
+  .Nh{
+    padding: 0 15px;
   }
   .nb {
     margin-top: 290px;
@@ -79,17 +80,15 @@
     transition: all 0.5s ease;
   }
 
-  h3 {
+ .Nav-header h3 {
     color: #fff;
     font-size: 16px;
+    margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 15px;
-    margin-left: 15px;
   }
   .name {
     font-size: 14px;
-    margin-right: 15px;
-    margin-left: 15px;
+    
   }
   .follow {
     margin-right: 10px;
@@ -100,8 +99,6 @@
     color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 15px;
-    margin-left: 15px;
   }
   .option {
     display: block;
