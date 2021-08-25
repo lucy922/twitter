@@ -90,6 +90,17 @@ body {
   .canbtn {
     width: 100%;
   }
+  .retweet{
+    text-align: center;
+    background-color: #1DA1F2;
+    width: 45px;
+    padding: 13px;
+    border-radius: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+    margin-right: 5px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -136,6 +147,12 @@ body {
     display: none;
   }
   .overlay{
+    display: none;
+  }
+  .icons {
+    margin-left: 4px;
+  }
+  .retweet{
     display: none;
   }
 }

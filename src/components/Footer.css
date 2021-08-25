@@ -6,29 +6,17 @@
   background-color: black;
 }
 
-@media (min-width: 401px) {
-  .footer{
-    height: 9%;
-  }
-}
-@media (min-width: 375px) {
-  .footer{
-    height: 10%;
-  }
-}
-
 .footer-icons{
-  display: flex;
+ display: flex;
  justify-content: space-between;
  align-items: center;
 }
 
 .footer-link{
     align-items: center;
-    padding: 8px;
-    margin-top: 13px;
-    font-size: 20px;
-    font-weight: 700;
+    padding: 5px 9px;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 .footer-icons svg{

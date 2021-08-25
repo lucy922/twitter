@@ -177,10 +177,8 @@ span{
 }
 
 .Nb {
-  margin-left: 170px;
+  margin-left: 165px;
   display: flex;
-  /* position: fixed; */
-  /* width: 96%; */
   background: #000;
   justify-content: space-between;
   align-items: center;
