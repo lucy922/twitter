@@ -1,4 +1,4 @@
-import { FaPenAlt, FaPenFancy } from 'react-icons/fa'
+import { FaPenAlt } from 'react-icons/fa'
 import './Content.css'
 import Posts from "./Posts"
 
