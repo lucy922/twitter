@@ -91,7 +91,6 @@ body {
     width: 100%;
   }
   .retweet{
-    text-align: center;
     background-color: #1DA1F2;
     width: 45px;
     padding: 13px;
@@ -105,6 +104,8 @@ body {
   }
   .retweetbtn{
     border: none;
+    display: flex;
+
     background-color: #1DA1F2;
     color: #fff;
   }
