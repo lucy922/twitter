@@ -8,7 +8,10 @@ const Content = ({ posts, onDelete, onAdd }) => {
     <div className="content">
       <Posts posts={posts} onDelete={onDelete} onAdd={onAdd} />
       <div className="retweet">
-      <FaPenAlt/>
+        <button className="retweetbtn"> 
+        <FaPenAlt/>
+        </button>
+      
       </div>
     </div>
   )

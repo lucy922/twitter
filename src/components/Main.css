@@ -98,8 +98,15 @@ body {
     border-radius: 100%;
     position: fixed;
     right: 0;
-    bottom: 80px;
-    margin-right: 5px;
+    bottom: 60px;
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+  }
+  .retweetbtn{
+    border: none;
+    background-color: #1DA1F2;
+    color: #fff;
   }
 }
 
