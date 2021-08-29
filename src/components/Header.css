@@ -33,7 +33,7 @@
   .Navbar {
     display: flex;
     position: fixed;
-    width: 96%;
+    width: 99%;
     background: #000;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@
     padding: 0 15px;
   }
   .nb {
-    margin-top: 290px;
+    margin-top: 45px;
   }
   .nav-options {
     display: flex;
@@ -65,7 +65,7 @@
     position: absolute;
     top: 12px;
     margin-top: 40px;
-    height: 730px;
+    height: 990px;
     justify-content: center;
     opacity: 0;
     transition: all 0.5s ease;

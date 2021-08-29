@@ -9,11 +9,6 @@
   align-items: center;
 }
 
-/* .search-bar:hover{
-  border: 1px solid #1DA1F2;
-  background-color: #000;
-} */
-
 .search-bar svg{
   font-size: 18px;
   color: #555557;
@@ -43,7 +38,6 @@ input{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #545455;
 }
 
 .title svg{
@@ -58,7 +52,7 @@ input{
 }
 
 .trend-wrap2{
-  padding: 5px 15px 5px 15px;
+  padding: 5px 13px 5px 13px;
   border-bottom: 1px solid #545455;
 }
 
@@ -72,17 +66,17 @@ input{
   color: #535353;
 }
 
-.trending h5{
+.trend-wrap2 h3{
   color: #535353;
-  
-}
-
-.trend-wrap1{
-  padding: 10px;
-}
-
-.trend-wrap2 h4{
+  font-size: 14px;
   margin-top: 5px;
+}
+.trend-link{
+padding: 5px;
+}
+.trend-link a{
+  text-decoration: none;
+  color: #0e88ec;
 }
 
 .trend-wrap2:last-child{
@@ -91,5 +85,10 @@ input{
 
 .trend-wrap2 h5{
   color: #535353;
-  margin-bottom: 5px;
+}
+
+.header-wrap{
+ padding: 5px 13px 5px 13px;
+ font-size: 15px;
+ border-bottom: 1px solid #545455;
 }

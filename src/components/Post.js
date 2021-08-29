@@ -1,4 +1,4 @@
-import { FaEllipsisH, FaRegComment, FaRetweet, FaRegHeart, FaUpload, FaSnapchatGhost, FaUserTimes, FaFolderPlus, FaBellSlash, FaTimesCircle, FaTintSlash, FaFlag } from "react-icons/fa"
+import { FaEllipsisH, FaRegComment, FaRetweet, FaRegHeart, FaUpload, FaSnapchatGhost, FaUserTimes, FaFolderPlus, FaBellSlash, FaTimesCircle, FaTintSlash, FaFlag, FaCheckCircle } from "react-icons/fa"
 import { useState } from 'react'
 
 const Post = ({ post, onDelete }) => {
@@ -8,15 +8,16 @@ const Post = ({ post, onDelete }) => {
   return (
 
     <div className="post">
-      <div className="post-content">
-        <div className="post-img">
+       <div className="posts">
+       <div className="post-img">
           <img src={post.thumbnail} alt="post thumbnail" />
         </div>
+       <div className="post-content">
         <div className="post-details">
           <div className="ps">
             <div>
               <a href="/">
-                <span className="post-name">{post.name}</span>
+                <span className="post-name">{post.name}</span> <FaCheckCircle/>
                 <span className="post-username">{post.username}</span>
                 <span className="post-time">{post.time}</span>
               </a>
@@ -83,6 +84,8 @@ const Post = ({ post, onDelete }) => {
           </div>
         </div>
       </div>
+       </div>
+     
 
       <div className="icons">
         <div className="span">

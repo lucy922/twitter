@@ -21,14 +21,13 @@
 }
 
 .bottom-header img{
-  width: 45px;
+  width: 50px;
   height: 50px;
   padding: 5px;
   border-radius: 50%;
 }
 
 .new-tweet{
-  margin-left: 15px;
   color: rgba(204, 204, 204, 0.452);
   font-size: 18px;
   font-weight: 400;
@@ -89,11 +88,6 @@
   border-bottom: 0;
 }
 
-.post-content{
-  display: flex;
-  align-items: center;
-}
-
 .post-img img{
   width: 45px;
   height: 45px;
@@ -101,22 +95,23 @@
   border-radius: 50%;
 }
 
+.posts{
+  display: flex;
+  margin-top: 10px;
+}
+
 .post-details{
-  margin-left: 10px;
-  margin-top: 16px;
-  /* display: flex;
-  align-items: center; */
+  margin-left: 13px;
 }
 .ps{
   display: flex;
-  align-items: center;
 }
 
 .post-name{
   color: #fff;
 }
 .post-username{
-  margin-left: 8px;
+  margin-left: 5px;
 }
 
 .post-details a{
@@ -126,6 +121,8 @@
 }
 
 .post-svg{
+  position: absolute;
+  right: 460px;
   color: rgba(204, 204, 204, 0.548);
 }
 
@@ -143,7 +140,8 @@ span{
 
 .post-text{
   font-size: 15px;
-  margin-top: 8px;
+  margin-top: 5px;
+  margin-right: 10px;
   margin-bottom: 17px;
   color: #D9D9D9;
 }
@@ -177,16 +175,7 @@ span{
 }
 
 .Nb {
-  margin-left: 165px;
-  display: flex;
   background: #000;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-
-.mb{
-  display: block;
 }
 
 .lists{

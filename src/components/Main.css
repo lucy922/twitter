@@ -12,14 +12,8 @@ body {
   .container {
     width: 100%;
   }
-  .post-svg {
-    margin-left: 8px;
-  }
   .post-time {
     margin-left: 5px;
-  }
-  .post-img {
-    padding-top: 5px;
   }
   .post-img img {
     margin: 0;
@@ -35,7 +29,7 @@ body {
     font-size: 13px;
   }
   .post-details {
-    margin-top: 10px;
+    margin-top: 0;
   }
   .post-name {
     font-size: 13px;
@@ -44,7 +38,6 @@ body {
     font-size: 14px;
   }
   .icons {
-    margin-top: 5px;
     margin-right: 0;
   }
   .icons span {
@@ -75,9 +68,7 @@ body {
   .span span {
     font-size: 14px;
   }
-  .Nb {
-    margin: 0;
-  }
+
   .menu-content {
     width: 100%;
     left: 0;
@@ -93,58 +84,60 @@ body {
   .retweet{
     background-color: #1DA1F2;
     width: 45px;
-    padding: 13px;
+    height: 45px;
+    padding: 14px;
     border-radius: 100%;
     position: fixed;
     right: 0;
     bottom: 60px;
-    display: flex;
-    justify-content: center;
     margin-right: 25px;
+    text-align: center;
   }
   .retweetbtn{
     border: none;
-    display: flex;
-
     background-color: #1DA1F2;
     color: #fff;
   }
+  .post-svg{
+    right: 8px;
+  }
+ 
 }
 
 @media (max-width: 320px) {
   .icons {
     margin-left: 35px;
   }
-  .post-svg {
+  /* .post-svg {
     margin-left: 35px;
-  }
+  } */
 }
 
 @media (min-width: 375px) {
   .icons {
     margin-left: 26px;
   }
-  .post-svg {
+  /* .post-svg {
     margin-left: 80px;
-  }
+  } */
 }
 
 @media (min-width: 360px) {
   .icons {
     margin-left: 30px;
   }
-  .post-svg {
+  /* .post-svg {
     margin-left: 75px;
-  }
+  } */
 }
 
 @media (min-width: 401px) {
   .icons {
     margin-left: 22px;
   }
-  .post-svg {
+  /* .post-svg {
     margin-left: 120px;
-  }
+  } */
 }
 
 @media (min-width: 640px) {
