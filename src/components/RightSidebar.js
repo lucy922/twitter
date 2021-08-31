@@ -1,6 +1,5 @@
 import { FaCog, FaEllipsisH, FaSearch } from 'react-icons/fa'
 import "./RightSidebar.css"
-import Image from '../assets/images/img.jpeg'
 
 const RightSidebar = () => {
   return (
