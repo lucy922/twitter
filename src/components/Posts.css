@@ -115,6 +115,8 @@
 }
 
 .post-details a{
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #fff;
   font-weight: 600;
@@ -148,6 +150,11 @@ span{
 
 .post-time{
   margin-left: 5px;
+}
+
+.post-link svg{
+ font-size: 14px;
+ margin-left: 4px;
 }
 
 .icons{

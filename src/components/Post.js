@@ -15,9 +15,10 @@ const Post = ({ post, onDelete }) => {
        <div className="post-content">
         <div className="post-details">
           <div className="ps">
-            <div>
+            <div className="post-link">
               <a href="/">
-                <span className="post-name">{post.name}</span> <FaCheckCircle/>
+                <span className="post-name">{post.name}</span>
+                 <FaCheckCircle/>
                 <span className="post-username">{post.username}</span>
                 <span className="post-time">{post.time}</span>
               </a>
