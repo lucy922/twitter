@@ -108,36 +108,24 @@ body {
   .icons {
     margin-left: 35px;
   }
-  /* .post-svg {
-    margin-left: 35px;
-  } */
 }
 
 @media (min-width: 375px) {
   .icons {
     margin-left: 26px;
   }
-  /* .post-svg {
-    margin-left: 80px;
-  } */
 }
 
 @media (min-width: 360px) {
   .icons {
     margin-left: 30px;
   }
-  /* .post-svg {
-    margin-left: 75px;
-  } */
 }
 
 @media (min-width: 401px) {
   .icons {
     margin-left: 22px;
   }
-  /* .post-svg {
-    margin-left: 120px;
-  } */
 }
 
 @media (min-width: 640px) {
